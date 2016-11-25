@@ -1,0 +1,68 @@
+// Custom bootstrap variables must be set or imported before bootstrap itself.
+@import "../vendors/bootstrap/scss/bootstrap";
+@import "variables";
+@import "_partial/header";
+@import "_partial/body1";
+@import "_partial/body2";
+@import "_partial/body3";
+@import "_partial/body4";
+@import "_partial/body6";
+
+
+
+html, body, .container {
+  height: 100%;
+  background: #2275dc;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+}
+
+.wrap{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+}
+
+html, body, .lb-container-body1{
+  height: 100%;
+  background: #FFFFFF;
+  width: 100%;
+}
+
+html, body, .lb-container-body2{
+  height: 100%;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+html, body, .lb-container-body3{
+  height: 100%;
+  background-color: #212121;
+  width: 100%;
+}
+html, body, .lb-container-body4{
+  height: 100%;
+  background: #FFFFFF;
+  width: 100%;
+}
+html, body, .lb-container-body5{
+  height: 100%;
+  background: #212121;
+  width: 100%;
+}
+
+
+
+
+$font-family-sans-serif:  Roboto, sans-serif ;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+

@@ -1,0 +1,40 @@
+<%- partial('_partial/head') %>
+<%- partial('_partial/body1') %>
+<%- partial('_partial/body2') %>
+<%- partial('_partial/body3') %>
+<%- partial('_partial/body4') %>
+<%- partial('_partial/body5') %>
+<body>
+  <div class="container">
+    <div class="wrap">
+
+      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+      <%- partial('_partial/body1', null, {cache: !config.relative_link}) %>
+      <%- partial('_partial/body2', null, {cache: !config.relative_link}) %>
+      <%- partial('_partial/body3', null, {cache: !config.relative_link}) %>
+      <%- partial('_partial/body4', null, {cache: !config.relative_link}) %>
+      <%- partial('_partial/body5', null, {cache: !config.relative_link}) %>
+<div class="lb-container-body1"></div>
+      <div class="lb-container-body2"> </div>
+      <div class="lb-container-body3"> </div>
+      <div class="lb-container-body4"> </div>
+      <div class="lb-container-body5"> </div>
+<!--
+        <!-- <div class="outer"> -->
+        <!--<section id="main">
+          <!--%- body %-->
+          <!--/section-->
+        <!--% if (theme.sidebar && theme.sidebar !== 'bottom'){ %-->
+          <!--%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %-->
+        <!--% } %-->
+      <!--</div>-->
+      <!--%- partial('_partial/footer', null, {cache: !config.relative_link}) %-->
+    <!--</div>-->
+    <!--%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %-->
+    <!--%- partial('_partial/after-footer') %-->
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>

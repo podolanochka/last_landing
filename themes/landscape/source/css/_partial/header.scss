@@ -1,0 +1,211 @@
+@import "./../variables";
+
+.header {
+  background-color: $lb-text-color-darkblue;
+  text-color: $lb-text-color-blue;
+  text: $lb-text-color-white;
+  position: static;
+  height: 600px;
+
+
+}
+
+.lb-navbar-right li a {
+  text-transform: uppercase;
+
+  .navbar-brand {
+    text-color: $lb-text-color-white
+  }
+
+}
+
+.textinhead {
+  color: $lb-text-color-white;
+  text-align: center;
+  margin-top: 74px;
+}
+
+#test {
+  font-size: 59.98px;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 72.048px;
+}
+
+#for {
+  font-family: 'Minion Pro';
+  font-size: 59.98px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  line-height: 72.048px;
+
+}
+
+#pay {
+  ont-family: Roboto;
+  font-size: 21.99px;
+  font-weight: 400;
+  line-height: 33.022px;
+
+}
+
+.navbar-light .navbar-brand {
+  color: $lb-text-color-white;
+}
+.navbar-light .navbar-brand:hover {
+  color: $lb-text-color-blue;
+}
+
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: $lb-text-color-white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:hover {
+  color: $lb-text-color-blue;
+}
+.lb-navbar-right .nav-item > .nav-link {
+  color: $lb-text-color-white;
+}
+.lb-navbar-right .nav-item > .nav-link:hover {
+  color: $lb-text-color-blue;
+}
+
+.lb-git-logo{
+  font-family: FontAwesome;
+  color:  #ffffff;
+  font-size: 30px;/* Approximation due to font substitution */
+  font-weight: 400;
+  text-align: center;
+}
+
+.buttonstyle {
+  display: block;
+  background-color: $lb-background-color-yellow;
+  box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.35);
+  width: 268px;
+  height: 60px;
+  border-radius: 49px;
+  align: center;
+  outline: none;
+  border: rgb(0, 0, 0);
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 56px;
+  font-family: Roboto;
+  color: $lb-text-color-brown;
+  font-size: 15.99px; /* Approximation due to font substitution */
+  font-weight: 500;
+  line-height: 60px; /* Approximation due to font substitution */
+  text-align: center;
+  transform: scaleY(1.0003); /* width and height properties ommitted due to transform */
+}
+
+.lb-header__or-text {
+  color: #9cc8ff;
+  font-size: 14px; /* Approximation due to font substitution */
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.lb-header__btn{
+  font-family: Roboto;
+  color: $lb-text-color-darkblue;
+  font-size: 14px; /* Approximation due to font substitution */
+  font-weight: 500;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  width: 80px;
+  height: 32px;
+  padding: 0.5rem 0;
+ }
+
+.lb-git-logo{
+  vertical-align: top;
+
+}
+
+.lb-memory-month {
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eeeeee;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 22px 0px rgba(0, 0, 0, 0.22);
+  width: 674px;
+  height: 164px;
+  position: relative;
+  bottom: -20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+
+  color: #448aff;
+  text-align: center;
+  margin: auto;
+
+.lb-mb-month{
+  padding-top: 30px;
+}
+
+}
+.lb-text-memory-month{
+  color: #448aff;
+  font-size: 31.79px; /* Approximation due to font substitution */
+  font-weight: 500;
+  line-height: 60px; /* Approximation due to font substitution */
+  text-align: center;
+  }
+
+
+.di-slider-p__spr-im {
+  display: block;
+  width: 50%;
+  float: left;
+  text-align: left;
+  color:  #448aff;
+}
+.di-slider-p__spr-ip {
+  display: block;
+  width: 50%;
+  float: right;
+  text-align: right;
+  color:  #448aff;
+}
+.range-slider-bar {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: #eeeeee;
+  width: 525px;
+  height: 4px;
+  margin: auto;
+}
+.range-slider-progress {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #2962ff;
+}
+
+.range-slider-handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+    margin-left: -16px;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #448aff;
+  width: 20px;
+  height: 20px;
+}
+
+
+

@@ -1,0 +1,63 @@
+
+<header class="header">
+<div>
+        <nav class="navbar navbar-light ">
+        <a class="navbar-brand logo" href="#">LAST.BACKEND</a>
+        <ul class="nav navbar-nav">
+            <% for (var i in theme.menu.left){ %>
+            <li class="nav-item active">
+                <a class="nav-link" href="<%- url_for(theme.menu.left[i]) %>"><%= i %></a>
+                          </li>
+
+            <% } %>
+        </ul>
+
+
+        <ul class="nav navbar-nav float-xs-right lb-navbar-right ">
+            <li class="nav-item">
+                <a class="nav-link " href="<%- url_for(theme.menu.right.Login) %>">Log in</a>
+            </li>
+            <li class="nav-item lb-header__or-text">or</li>
+            <li class="nav-item">
+                <a class="btn lb-header__btn" href="<%- url_for(theme.menu.right.Signup) %>">Sign up</a>
+            </li>
+            <li class="nav-item">
+                <a class="lb-git-logo" href="<%- theme.links.github %>">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+
+        </ul>
+
+        </nav>
+
+</div>
+    <nav class="textinhead" id="test">
+        <a>Cloud hosting,<br> designed <a id="for">for</a> developers</a><br><a id="pay">Pay as you go and no a panny more</a>
+
+    </nav>
+    <div>
+       <button class="buttonstyle">
+           <a class="mybuttontextstyle">CREATE AN ACCOUNT</a>
+    </div>
+    <div class="lb-memory-month">
+        <a class="lb-text-memory-month">$ 1.25 / 128 MB Memory / month</a>
+
+        <div class="range-slider">
+            <div class="range-slider-bar">
+                <div class="range-slider-progress" style="left: -100%;"></div>
+            </div>
+            <div class="range-slider-handle" style="left: 0%;">
+                <div class="range-slider-handle-inner"></div>
+            </div>
+        </div>
+
+        <div class="lb-mb-month">
+        <div class="di-slider-p__spr-im">512 / MB</div>
+        <div class="di-slider-p__spr-ip">$ 5 / month</div>
+        </div>
+    </div>
+</header>
+
+
+
